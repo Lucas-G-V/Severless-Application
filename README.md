@@ -17,8 +17,7 @@ A aplicação utiliza o serviço Azure Functions como um serviço serverless par
 Para configurar e executar o projeto localmente, siga estas etapas:
 
 1. Clone o repositório: `git clone https://github.com/seu-usuario/nome-do-repositorio.git`
-2. Instale as dependências do projeto: `npm install`
-3. Configure as variáveis de ambiente necessárias, incluindo as credenciais para o acesso à tabela e ao serviço de e-mail.
-4. Execute a aplicação: `npm start` ou `func start`
+2. Instale as dependências do projeto
+3. Adicione seu token válido do SendGrid
 
 Certifique-se de ter uma tabela configurada no Azure (por exemplo, Azure Cosmos DB ou Azure SQL Database) e um serviço de e-mail configurado (por exemplo, SendGrid) para que a aplicação funcione corretamente.
